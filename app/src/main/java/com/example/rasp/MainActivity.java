@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 getIPandPort();
-                if(pwm < 80) {
+                if(pwm < 100) {
                     pwm = pwm + 5;
                 }
                 ++x;
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 getIPandPort();
-                if(pwm > 30) {
+                if(pwm > 0) {
                     pwm = pwm - 5;
                 }
                 ++x;
